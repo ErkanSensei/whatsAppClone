@@ -6,7 +6,10 @@
   },
   "dependencies": {
     "meteor-node-stubs": "~0.2.0",
+    "rc-tabs": "^7.0.10",
     "react": "^15.3.2",
-    "react-dom": "^15.3.2"
+    "react-bootstrap": "^0.30.5",
+    "react-dom": "^15.3.2",
+    "react-tabbar": "0.0.11"
   }
 }
