@@ -9,7 +9,7 @@ export default class App extends Component {
     return(
           <NavItem eventKey={this.props.key} href={this.props.href}>
             <Glyphicon glyph={this.props.icon}>
-              <p>{this.props.tab}</p>
+              <p style={{ fontSize: '10px' }}>{this.props.tab}</p>
             </Glyphicon>
           </NavItem>
     )

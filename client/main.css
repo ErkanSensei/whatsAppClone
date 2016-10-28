@@ -1,6 +1,14 @@
 /* CSS declarations go here */
-#tabBar {
+#TabBar {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+#Header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    background-color: #F8F8F8;
 }
