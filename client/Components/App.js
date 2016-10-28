@@ -1,14 +1,19 @@
 import React, { Component } from 'react';
-import { Tabs, Tab } from 'react-bootstrap'
+import { Tabs, Tab, Nav, NavItem } from 'react-bootstrap'
+import styles from '../main.css'
 export default class App extends Component {
 
   render() {
     return(
-      <Tabs defaultActiveKey={2} id="uncontrolled-tab-example" bsStyle='pills'>
-        <Tab eventKey={1} title="Tab 1" />
-        <Tab eventKey={2} title="Tab 2" />
-        <Tab eventKey={3} title="Tab 3" />
-      </Tabs>
+      <div>
+        <Nav bsStyle="tabs" justified activeKey={1} onSelect={this.handleSelect}>
+          <NavItem eventKey={1} href="/home">NavItem 1 content</NavItem>
+          <NavItem eventKey={2} title="Item">NavItem 2 content</NavItem>
+          <NavItem eventKey={3} disabled>NavItem 3 content</NavItem>
+          <NavItem eventKey={3} disabled>NavItem 3 content</NavItem>
+          <NavItem eventKey={3} disabled>NavItem 3 content</NavItem>
+        </Nav>
+      </div>
     )
   }
 }
