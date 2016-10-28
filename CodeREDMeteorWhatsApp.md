@@ -11,5 +11,6 @@
 
 
 3. ```$ meteor npm install —save react react-dom```
-4. ​
+4. ```$ npm install react-bootstrap —save```
+5. ​
 
