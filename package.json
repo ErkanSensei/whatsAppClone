@@ -1,16 +1,26 @@
 {
-  "name": "whatsAppClone",
-  "private": true,
+  "name": "meteor-react-boilerplate",
+  "version": "1.0.1",
+  "description": "Meteor React Boilerplate",
+  "main": "index.js",
   "scripts": {
-    "start": "meteor run"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AdamBrodzinski/meteor-react-boilerplate"
+  },
+  "author": "Ryen Beatty <ryen.beatty@gmail.com> (http://ryenbeatty.co)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdamBrodzinski/meteor-react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/AdamBrodzinski/meteor-react-boilerplate",
   "dependencies": {
-    "meteor-node-stubs": "~0.2.0",
-    "rc-tabs": "^7.0.10",
-    "react": "^15.3.2",
-    "react-bootstrap": "^0.30.5",
-    "react-dom": "^15.3.2",
-    "react-router": "^3.0.0",
-    "react-tabbar": "0.0.11"
+    "classnames": "^2.2.5",
+    "history": "^3.0.0",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0",
+    "react-router": "^2.6.1"
   }
 }
