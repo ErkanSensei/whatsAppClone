@@ -1,5 +1,5 @@
 import { Meteor } from 'meteor/meteor';
-
+import { render } from 'react-dom'
 import React from 'react';
 import { Router, browserHistory } from 'react-router';
 import ReactDOM from 'react-dom';
@@ -14,8 +14,9 @@ const rootRoute = {
 };
 
 Meteor.startup(() => {
-  ReactDOM.render(
-    <Router history={browserHistory} routes={rootRoute} />,
-    document.getElementById('app')
-  );
+    render ((
+      <Router history={browserHistory} routes={rootRoute} />,
+    ),document.getElementById('app')
+)
+
 });

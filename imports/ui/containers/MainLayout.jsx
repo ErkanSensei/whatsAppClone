@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../components/Header.jsx';
+import TabBar from '../components/TabBar.js'
 
 export default class MainLayout extends React.Component {
   render() {
@@ -7,6 +8,9 @@ export default class MainLayout extends React.Component {
       <div>
         <Header />
         <main>{this.props.children}</main>
+        <div id="TabBar">
+          <TabBar />
+        </div>
       </div>
     );
   }
